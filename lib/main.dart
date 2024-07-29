@@ -62,7 +62,7 @@ class ExpenseTracker extends StatelessWidget {
               ),
             ),
       ),
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.system,
       home: const Expenses(),
     );
   }
