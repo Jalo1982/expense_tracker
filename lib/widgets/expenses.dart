@@ -83,7 +83,9 @@ class _ExpensesState extends State<Expenses> {
       ),
       body: Column(
         children: [
-          Expanded(child: mainContent),
+          Expanded(
+            child: mainContent,
+          ),
         ],
       ),
     );
